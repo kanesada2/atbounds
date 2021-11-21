@@ -2,6 +2,8 @@
 
 namespace App\Repositories;
 
-class MinionRepositoy {
+use App\Interfaces\IMinionRepository;
+
+class MinionRepository implements IMinionRepository {
 
 }

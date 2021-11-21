@@ -2,6 +2,8 @@
 
 namespace App\Repositories;
 
-class VoteRepository {
+use App\Interfaces\IVoteRepository;
+
+class VoteRepository implements IVoteRepository {
     
 }

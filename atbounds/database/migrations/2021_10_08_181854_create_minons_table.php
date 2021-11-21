@@ -13,12 +13,12 @@ class CreateMinonsTable extends Migration
      */
     public function up()
     {
-        Schema::create('minons', function (Blueprint $table) {
+        Schema::create('minions', function (Blueprint $table) {
             $table->id();
             $table->string('name', 20);
             $table->string('image_path', 50);
-            $table->int('attack');
-            $table->int('health');
+            $table->integer('attack');
+            $table->integer('health');
             $table->text('text');
             $table->timestamps();
         });

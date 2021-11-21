@@ -2,6 +2,8 @@
 
 namespace App\Repositories;
 
-class ArticleRepository {
+use App\Interfaces\IArticleRepository;
+
+class ArticleRepository implements IArticleRepository {
     
 }

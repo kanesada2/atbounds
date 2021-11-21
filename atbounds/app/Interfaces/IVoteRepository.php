@@ -1,7 +1,7 @@
 <?php
 
-namespace App\Insterfaces;
+namespace App\Interfaces;
 
-class IVoteRepository {
+interface IVoteRepository {
     
 }

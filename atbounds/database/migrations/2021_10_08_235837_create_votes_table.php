@@ -15,10 +15,10 @@ class CreateVotesTable extends Migration
     {
         Schema::create('votes', function (Blueprint $table) {
             $table->id();
-            $table->tinyInt('rate')->nullable();
+            $table->tinyInteger('rate')->nullable();
             $table->text('body')->nullable();
-            $table->int('article_id');
-            $table->int('voter_id');
+            $table->integer('article_id');
+            $table->integer('voter_id');
             $table->unique(['article_id', 'voter_id']);
             $table->timestamps();
         });

@@ -2,6 +2,8 @@
 
 namespace App\Repositories;
 
-class UserRepository {
+use App\Interfaces\IUserRepository;
+
+class UserRepository implements IUserRepository {
     
 }

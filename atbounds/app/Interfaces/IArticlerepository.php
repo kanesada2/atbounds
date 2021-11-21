@@ -1,7 +1,7 @@
 <?php
 
-namespace App\Repositries;
+namespace App\Interfaces;
 
-class IArticleRepositry {
+interface IArticleRepository {
 
 }
